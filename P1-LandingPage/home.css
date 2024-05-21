@@ -1,0 +1,382 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar
+{
+    background: linear-gradient(90deg,blue,purple,yellow);
+    display: flex;
+    font-size: x-large;
+    justify-content: space-between;
+    font-family: cursive;
+    line-height: 200%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 45;
+}
+
+.navbar .title
+{
+    margin-left: 3em;
+    color: antiquewhite;
+    font-weight: 300;
+}
+
+.mainbody .page1 .para
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.tempnav
+{
+    display: flex;
+    column-gap: 2em;
+}
+
+.navbar .contact
+{
+    margin-right: 3em;
+}
+
+.hom,.cont,.prod
+{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .home:hover, .navbar .contact:hover, .navbar .product:hover
+{
+    cursor: pointer;
+}
+
+.mainbody .page1 .slides
+{
+    width: 30%;
+    height: 25em;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: 0px 0px 3px blue;
+    position: relative;
+    overflow: hidden;
+    border-radius: 3%;
+    
+}
+
+.slider
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 100ms;
+}
+
+.mainbody .page1 .buttons
+{
+    text-align: center;
+}
+
+.mainbody .page1 .buttons .prev,.mainbody .page1 .buttons .next
+{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: small;
+    font-family: cursive;
+    padding: 0.6%;
+    border-radius: 0.9em;
+    border-width: 1px;
+    box-shadow: 0px 0px 5px rgb(54, 4, 102);
+}
+
+.mainbody .page1 .buttons .prev:hover,.mainbody .page1 .buttons .next:hover
+{
+    transition: 100ms;
+    background-color: rgb(42, 51, 52);
+    color: yellow;
+    box-shadow: 0px 0px 5px rgb(42, 51, 52);
+}
+
+.mainbody .page1 .para
+{
+    font-size: medium;
+    font-family: cursive;
+}
+
+.converter
+{
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    font-size: x-large;
+    margin-top: 2em;
+}
+
+.converter .selection
+{
+    margin-left: 1em;
+    border-radius: 0.7em;
+    font-family: cursive;
+    width: 5%;
+    box-shadow: 0px 0px 5px purple;
+    cursor: pointer;
+}
+
+.cards
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards .card .price
+{
+    text-align: center;
+    font-family: cursive;
+    font-size: x-large;
+    background: linear-gradient(90deg,blue,purple);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.card
+{
+    width: 18%;
+    height: 23em;
+    margin: 2.5%;
+    margin-top: 5%;
+    box-shadow: 0px 0px 7px blue;
+    position: relative;
+    overflow: hidden;
+    border-radius: 3%;
+} 
+
+.card-img
+{
+    background-color: green;
+    height: 11em;
+    margin-bottom: 2em;
+    background-size: cover;
+}
+
+.cards .card .but
+{
+    margin-left: 35%;
+    margin-top: 12%;
+    padding: 3%;
+    border-radius: 1em;
+    border-width: 1.5px;
+    box-shadow: 0px 0px 3px blueviolet;
+    border-color: blueviolet;
+    font-family: cursive;
+    font-size: large;
+    cursor: pointer;
+}
+
+#page1
+{
+    position: relative;
+    padding-top: 1em;
+}
+
+#converter
+{
+    position: relative;
+    padding-top: 3em;
+}
+
+.cards .card .but:hover
+{
+    color: yellow;
+    background-color: rgb(42, 51, 52);
+    box-shadow: 0px 0px 3px rgb(42, 51, 52);
+    border-color: rgb(42, 51, 52);
+    transition: 100ms;
+}
+
+.watch-1
+{
+    background-image: url('https://ae01.alicdn.com/kf/HTB18y8sadjvK1RjSspiq6AEqXXaw/Luxury-Dual-Movt-Men-s-Leather-Quarz-Analog-Digital-LED-Sport-Wrist-Watch-2019-Clock-Male.jpg');
+}
+
+.watch-2
+{
+    background-image: url('https://th.bing.com/th/id/R.e397f788b2d3bfa17ba9a679e5dd10a7?rik=iwhniOaXIIhvww&riu=http%3a%2f%2fwww.bhphotovideo.com%2fimages%2fimages2500x2500%2fapple_mj2x2ll_a_watch_sport_smartwatch_38mm_1187194.jpg&ehk=eOf8xtWwoF1fgsEnYQ7Mtu8zDfvnfn4AR8bDjh%2bevBs%3d&risl=&pid=ImgRaw&r=0');
+}
+
+.watch-3
+{
+    background-image: url('https://th.bing.com/th/id/OIP.OMtHZWC2TWCq44-Hd1InXQHaEo?rs=1&pid=ImgDetMain');
+}
+
+.watch-4
+{
+    background-image: url('https://i5.walmartimages.com/asr/b51bac15-1273-441a-b5f6-ceb78c71f6b7_1.ae08e2fe33f26f7fc57b8015aacda912.jpeg');
+}
+
+.watch-5
+{
+    background-image: url('https://th.bing.com/th/id/R.4ec61eb060bbf702efd92012b06d4c44?rik=nYID1b7CANCi5g&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2017%2f11%2f17%2f230769-luxury_watches-watch.jpg&ehk=wmxlUeDr%2bMv6xhv4pPDTnsPAN2L3D2EmzjVqvhbbyAQ%3d&risl=&pid=ImgRaw&r=0');
+}
+
+.watch-6
+{
+    background-image: url('https://ae01.alicdn.com/kf/HTB1KYlDD7KWBuNjy1zjq6AOypXau/fashion-2018-women-watch-Rhinestone-Watches-Bracelet-Luxury-Waterproof-Quartz-Ladies-Rose-Gold-Watch-with-Stainless.jpg');
+}
+
+.watch-7
+{
+    background-image: url('https://switch-box.net/wp-content/uploads/2013/08/wallpaper-watch-06.jpg');
+}
+
+.watch-8
+{
+    background-image: url('https://i.pinimg.com/736x/cd/e9/0a/cde90aa83cd587c494fe55ffb0e017ae.jpg');
+}
+
+.contacting
+{
+    background-color: rgb(44, 4, 67);
+    width: 100%;
+    height: 3em;
+    position: relative;
+    color: antiquewhite;
+}
+
+.contacting .cct
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-size: x-large;
+}
+
+.contacting .cct .call
+{
+    cursor: pointer;
+    padding-left: 0.9em;
+}
+
+.contacting .cct .call:hover
+{
+    color: red;
+}
+
+.contacting .cct .facebook
+{
+    cursor: pointer;
+    padding-left: 0.9em;
+}
+
+.contacting .cct .facebook:hover
+{
+    color: blue;
+}
+
+.contacting .cct .twitter
+{
+    cursor: pointer;
+    padding-left: 0.9em;
+}
+
+.contacting .cct .twitter:hover
+{
+    color: aqua;
+}
+
+.contacting .cct .instagram
+{
+    cursor: pointer;
+    padding-left: 0.9em;
+}
+
+.contacting .cct .instagram:hover
+{
+    background: linear-gradient(54deg,blue,rgb(235, 31, 177));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.navbar2 .navbar .checkbtn
+{
+    display: flex;
+    justify-content: right;
+    margin-right: 2em;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: x-large;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        line-height: 100%;
+    }
+
+    .navbar .title
+    {
+        margin-top: -1em;
+    }
+    
+    .mainbody .page1 .slides {
+        width: 45%;
+    }
+
+    .converter .selection {
+        width: 30%;
+    }
+
+    .cards .card {
+        width: 40%;
+    }
+
+    .menu-toggle {
+        display: block;
+        margin-left: auto;
+        color: black;
+        z-index: 99;
+    }
+
+    .tempnav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 200px; /* Adjust as needed */
+        background: linear-gradient(90deg, blue, purple, yellow);
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+        padding: 1em;
+    }
+
+    .tempnav a {
+        color: antiquewhite;
+        padding: 1em;
+        text-align: left;
+        width: 100%;
+    }
+
+    .tempnav.show {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        font-size: larger;
+    }
+
+    .cards .card {
+        width: 60%;
+    }
+}
